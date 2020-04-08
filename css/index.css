@@ -350,3 +350,13 @@ img {
   background: #FFFFFF;
   color: #17A2B8;
 }
+.home .transition {
+  background: #ff0000;
+  transition-property: transform, background;
+  transition-duration: 2s;
+  transition-delay: 1s;
+}
+.home .transition:hover {
+  transform: rotate(90deg);
+  background: rgba(255, 0, 0, 0);
+}
